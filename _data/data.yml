@@ -69,6 +69,11 @@ sidebar:
         - idiom: <a href="https://www.linkedin.com/in/kapilmohan21/"> Kapil Mohan </a>
           level: <small> Raahul has been an energetic data scientist, fast learner and with a constant endeavour to innovate in my team in Optum. His command on machine learning and attitude to solve atypical business problems delivers high business value fast. Always happy to have him on my team again.</small>
 
+    languages:
+      title: Languages
+      info:
+        - idiom: English, Bengali
+
 
 career-profile:
     title: Profile
@@ -150,11 +155,6 @@ certifications:
           details: |
             - Ongoing
 
-
-languages:
-  title: Languages
-  info:
-    - idiom: English, Bengali
 
 interests:
   title: Interests
