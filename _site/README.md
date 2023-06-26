@@ -12,4 +12,7 @@ bundle exec jekyll serve
 ```
 * Navigate to `http://localhost:4000`
 
+## Print
+
+Use this one : https://www.sejda.com/html-to-pdf
 
