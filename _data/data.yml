@@ -8,24 +8,26 @@ sidebar:
     phone: +31644378580
     city: Amsterdam
     linkedin: raahuldutta
+    website: musingsonai.substack.com
+    
 
     skills:
       title: Skills
       info:
-        - idiom: MLOps Training
+        - idiom: LLM Training, Fine-Tune, and Deployment 
+          level: 3D parallelism, Zero Infinity, LLM Model Fine-Tune - PeFT, QLoRA, RLHF, Muti GPU Cluster inference, Cuda optimized Rust Server for LLM inference
+        
+        - idiom: Model Training
           level: Distributed Training Ray-DeepSpeed-Alpa, FlashAttention, KubeFlow, Continuous Model Training, TFX, Katib
 
-        - idiom: MLOps Deployment
+        - idiom: Model Deployment
           level: KServe, ModelMesh, Fastertransformer, Kubeflow
 
         - idiom: Model Quantization
           level: NeuronSDK, Onnx, TensorRT, Bitsandbytes, Cuda Lavel Quantization with Caching
 
-        - idiom: LLM
-          level: LLM Model Fine-Tune - PeFT, QLoRA, RLHF, Muti GPU Cluster inference, Cuda optimized Rust Server for LLM inference
-
         - idiom: ML Product Management
-          level: BackLog Refinment, Product Roadmap, Stakeholder Relationship, Building MLOps Philosophy
+          level: BackLog Refinement, Product Roadmap, Stakeholder Relationship, Building MLOps Philosophy
 
         - idiom: Model Testing
           level: AdaTest, Helm( LLM Model Testing), RLHF
@@ -34,7 +36,7 @@ sidebar:
           level: Model Explanation - Shap and WhatIf, Learning Interpretability Tool, Allibai Detector
 
         - idiom: Recommendation System
-          level: Session-based Reco, Muti Attribute Reco, ALS, Collaborative Filtering, Muti Arm bandit , AB Testing
+          level: Session-based Reco, Muti Attribute Reco, ALS, Collaborative Filtering, Muti Arm bandit, AB Testing
 
         - idiom: Language
           level: Python, Rust
@@ -94,15 +96,16 @@ experiences:
         company: Elsevier, Amsterdam
         details: |
           The Internal MLOps Orchestration Tool (mlcosmos)
+          - Building LLM from scratch with Research Document - using Gradient Compression 1-bit Adam, Sparse Attention, Curriculum Learning, Sparse Attention, Zero Infinity and 3D Parallelism.
           - Building from scratch and leading the internal mlops tool that is being used by multiple business domains and teams(50+ Data scientists) internally in Elsevier.
-          - Handeling the Team, Hiring, Operations and BackLog Refinment, Product Roadmap, Stakeholder Relationship, <b> Building MLOps Philosophy(3V's)</b>  in the company.
+          - Handling the Team, Hiring, Operations and BackLog refinement, Product Roadmap, Stakeholder Relationship, <b> Building MLOps Philosophy(3V's)</b>  in the company.
           - Building the LLM framework to fine-tune the LLM - <b> Cost $1-3 (10-15B Model,0.5 million datasets) </b> and Rust-based Inference framework(benchmark per token latency <b> 42-45 Ms </b>)
           - Implemented Kubeflow Orchestrated Deployment plan using <b> KServe that handles Inference batching, Canary roll out, Prometheus logging, and Autoscaling (KPA and HPA both), Scaling down to zero, custom deployment </b>.
           - Implemented pipeline to optimize the latency of large transformer models - The Inference of the Scibert model is reduced to <b>523 Ms from 36 Seconds </b> - using TensortRT Nvidia Triton and Model Quantization on KServe.
           - The Inference of the LSTM CRF tagger model is reduced to <b> 32 Ms from 640 Ms - using AWS Neuron and AWS Inferentia. Cost reduction to <b>734 euros from 4441 Euros(Sagemaker) </b> yearly.
           - Implementation of Model-mesh Architecture - Hybrid of Rule-based and Logistic Regression Models. We achieved <b> 1 million transactions per hour spending 42 USD.(backed  by mlserver and gRPC) </b>
           - Implemented Ray and Flash Attention-based Kubelfow orchestrated training pipeline that used to train and can accommodate the <b> long sentence(2048 tokens) and different datatype like bf16 <b>
-          - Model Explainability using Shap,WhatIf, LIT and Alibi Detector.
+          - Model Explainability using Shap, WhatIf, LIT, and Alibi Detector.
           - Model Testing using Adatest, LLM Testing using Helm
           - Implemented Kubeflow-based Distributed Continuous Training (Daily Avg 2 times for 11 Pipelines)
           - TFX for TensorFlow models
@@ -113,10 +116,10 @@ experiences:
           Personalized Recommendation in NutriU App. (MoU > 500K)
           - Implemented Behavior Sequence Transformer. - <b>The Click rate was increased by 6.8%</b>
           - Implementing Multi-Arm Bandit-based Framework to send the segmented notifications - <b>The Click rate was increased by 14%</b>
-          - Implemented TinyML based food recognition in the IoT device.
+          - Implemented TinyML-based food recognition in the IoT device.
           - Implemented Optimized pipeline using TFX for the Recommendation Engine - Training - <b>70% Less time</b>
       - role: Senior Machine Learning Engineer, Lead
-        time: May, 2018 - Dec, 2020
+        time: May 2018 - Dec 2020
         company: UHG, Bangalore
         details: |
           - Night Mare Prediction for PTSD patients - Implemented a patented solution using a machine model. Also, recommended personalized sleep hygiene for a better sleeping process.
@@ -124,15 +127,15 @@ experiences:
           - Plug and Play FAQ Chatbot System  - Developed the NLP part of a chatbot that is designed to integrate with the FAQ base of any support system using transformers.
           - Implemented a patented <b> A solution for Automatic Utterance Generation using Hybrid GAN Architecture </b>
       - role: Machine Learning Developer
-        time: Oct, 2016 - Mar, 2018
+        time: Oct 2016 - Mar, 2018
         company: Oracle, JD Edwards R&D, Bangalore
         details: |
           - Implemented the <b> Entity and Intent recognition part </b> of the Enterprise JD Edwards Chatbot
           - Implemented JD Edwards login with <b> Face Recognition </b> using OpenCV and Deep Neural Network.
-          - Implemented Decentralized marketplace in JD Edwards using IBM Hyper Ledger.
+          - Implemented a Decentralized marketplace in JD Edwards using IBM Hyper Ledger.
           - Implemented Beacon integration with JD Edwards using Estimote Beacons and time series analysis of sensor data.
       - role: Systems Engineer
-        time: Jan, 2014 - Oct, 2015
+        time: Jan 2014 - Oct, 2015
         company: Tata Consultancy Services
 
 
@@ -141,16 +144,16 @@ certifications:
       list:
         - name: Patents From Oracle
           details: |
-            - Beacon enabled system for data retrieval based on location.
+            - Beacon-enabled system for data retrieval based on location.
             - Beaconized time entry system.
             - Visualization ERP Solution in Chatbot(Filed)
         - name: Patents from Optum
           details: |
             - Utterances Generation for Training of a Healthcare Benefit Chatbot using GAN.
             - Intelligent Conversational Assistants using Physiological/Psychological Responses of Paralyzed Patients.
-            - Decentralized Lifestyle Recommendation System based on Crowd sourced Mental Health Data.
+            - Decentralized Lifestyle Recommendation System based on Crowdsourced Mental Health Data.
             - System and Method of personalized chatbots using profile ranking architecture on Physiological and Psychological Biometric Inputs.
-            - System and Method to detect PTSD-driven Nightmare episode and intervention based on sensor feedback.Beacon enabled system for data retrieval based on location.
+            - System and Method to detect PTSD-driven Nightmare episodes and intervention based on sensor feedback.Beacon-enabled system for data retrieval based on location.
 
 interests:
   title: Interests
