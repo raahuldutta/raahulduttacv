@@ -98,7 +98,7 @@ experiences:
         details: |
           The Internal MLOps Orchestration Tool (mlcosmos)
           - Building LLM from scratch with Research Document - using <b> Gradient Compression 1-bit Adam, Sparse Attention, Curriculum Learning, Sparse Attention, Zero Infinity, and 3D Parallelism </b>.
-          - Building from scratch and leading the internal mlops tool that is being used by <b> multiple business domains and teams(50+ Data scientists) internally in Elsevier</b> .
+          - Building from scratch and leading the internal mlops tool that is being used by <b> multiple business domains and teams(50+ Data scientists) internally in Elsevier</b>.
           - Handling the Team, Hiring, Operations and BackLog refinement, Product Roadmap, Stakeholder Relationship, <b> Building MLOps Philosophy(3V's)</b>  in the company.
           - Building the LLM framework to fine-tune the LLM - <b> Cost $1-3 (10-15B Model,0.5 million datasets) </b> and Rust-based Inference framework(benchmark per token latency <b> 42-45 Ms </b>)
           - Implemented Kubeflow Orchestrated Deployment plan using <b> KServe that handles Inference batching, Canary roll out, Prometheus logging, and Autoscaling (KPA and HPA both), Scaling down to zero, custom deployment </b>.
@@ -111,7 +111,7 @@ experiences:
           - Implemented Kubeflow-based Distributed Continuous Training (Daily Avg 2 times for 11 Pipelines)
           - TFX for TensorFlow models
       - role: Machine Learning Architect
-        time: 2014 - 2015
+        time: Jan 2021 - Dec 2021
         company: Philips Austria GmbH, Klagenfurt, Austria
         details: |
           Personalized Recommendation in NutriU App. (MoU > 500K)
