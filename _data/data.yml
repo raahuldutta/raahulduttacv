@@ -54,6 +54,7 @@ sidebar:
         - idiom: <a href="https://home.mlops.community/public/events/llm-in-prod-part-ii-2023-06-20"> Large Language Models in Production Conference </a>
         - idiom: <a href="https://www.meetup.com/data-drinks/events/293543726/"> Data & Drinks Causal-driven ML & Cost-effective Transformer Productionization </a>
         - idiom: <a href="https://www.meetup.com/amsterdam-mlops-community/events/289492676/"> MLOps Community Amsterdam Meetup </a>
+        - idiom: <a href="https://www.meetup.com/deeploy-events/events/294083381/"> Responsible AI in LLM @Google </a>
 
 
     recommendations:
@@ -83,7 +84,7 @@ career-profile:
       - I am a Machine Learning Lead with 9+ years of experience in transforming the Jupyter Notebooks into low-latency, highly scalable - production standard endpoints, I implemented various ML/AI models and pipelines (30+) and exposed them.
       - I am skilled in implementing Distributed Training and Deployment Pipelines, Large Language Models(Training and Serving), Recommendation Engine (Offline and Online), NLP, Transfer Learning, TinyML, and various programming languages (Python, C#, Rust). Well-versed in working across interdisciplinary teams with quality assured on-time delivery.      
       - I am leading the MLOPs team in Elsevier, and am building a cloud and model-agnostic MLOps orchestration tool that enables 50+ Data Scientists to train the model optimally and ship the trained model into production with better velocity and proper versioning.      
-      - I am building the LLMOps tool with where the large model can be trained and deployed.     
+      - I am building the LLMOps tool where the large model can be trained and deployed.     
       - I built the recommendation engine of the Nutriu App that is used by millions of users across the globe.     
       - Thirteen Patents+ in IoT, BMI, Chatbot, Tiny-ml, and ML.
 
@@ -96,8 +97,8 @@ experiences:
         company: Elsevier, Amsterdam
         details: |
           The Internal MLOps Orchestration Tool (mlcosmos)
-          - Building LLM from scratch with Research Document - using Gradient Compression 1-bit Adam, Sparse Attention, Curriculum Learning, Sparse Attention, Zero Infinity and 3D Parallelism.
-          - Building from scratch and leading the internal mlops tool that is being used by multiple business domains and teams(50+ Data scientists) internally in Elsevier.
+          - Building LLM from scratch with Research Document - using <b> Gradient Compression 1-bit Adam, Sparse Attention, Curriculum Learning, Sparse Attention, Zero Infinity, and 3D Parallelism </b>.
+          - Building from scratch and leading the internal mlops tool that is being used by <b> multiple business domains and teams(50+ Data scientists) internally in Elsevier</b> .
           - Handling the Team, Hiring, Operations and BackLog refinement, Product Roadmap, Stakeholder Relationship, <b> Building MLOps Philosophy(3V's)</b>  in the company.
           - Building the LLM framework to fine-tune the LLM - <b> Cost $1-3 (10-15B Model,0.5 million datasets) </b> and Rust-based Inference framework(benchmark per token latency <b> 42-45 Ms </b>)
           - Implemented Kubeflow Orchestrated Deployment plan using <b> KServe that handles Inference batching, Canary roll out, Prometheus logging, and Autoscaling (KPA and HPA both), Scaling down to zero, custom deployment </b>.
